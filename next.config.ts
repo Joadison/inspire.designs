@@ -1,7 +1,8 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images:{
+      domains: ['utfs.io', 'instagram.ffor14-1.fna.fbcdn.net', 'scontent.cdninstagram.com', 'lh3.googleusercontent.com'],
+  }
 };
 
 export default nextConfig;

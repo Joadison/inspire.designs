@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        greatVibes: ["Great Vibes", 'cursive'],
+        arsenica: ["ArsenicaTrial", "sans-serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
