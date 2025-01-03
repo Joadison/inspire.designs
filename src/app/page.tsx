@@ -1,11 +1,9 @@
-import Carrosel from "@/components/Carrosel";
 import Contatos from "@/components/Contatos";
 import Depoimentos from "@/components/Depoimentos";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Pacotes from "@/components/Pacotes";
 import Quemsomos from "@/components/Quemsomos";
-import Servicos from "@/components/Servicos";
 import BackToTopButton from "@/components/BackToTopButton";
 
 export default function Home() {

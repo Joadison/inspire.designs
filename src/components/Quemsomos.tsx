@@ -37,8 +37,8 @@ function Quemsomos() {
       </div>
 
       <div className="text-center">
-        <span className="text-3xl text-gray-900 font-arsenica"> "Em tudo o que fizermos, fazemos por amor e com propósito." </span>
-      </div>
+        <span className="text-3xl text-gray-900 font-arsenica"> &quot;Em tudo o que fizermos, fazemos por amor e com propósito.&quot; </span>
+    </div>
     </div>
   )
 }
