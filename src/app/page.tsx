@@ -5,18 +5,19 @@ import Header from "@/components/Header";
 import Pacotes from "@/components/Pacotes";
 import Quemsomos from "@/components/Quemsomos";
 import BackToTopButton from "@/components/BackToTopButton";
-/* import HeroSection from "@/components/HeroSection"; */
+import HeroSection from "@/components/HeroSection";
+//import Servicos from "@/components/Servicos";
 
 export default function Home() {
   return (
     <>
       <Header />
 
-      {/* <section className="relative min-h-[80vh]">
+      <section className="">
         <HeroSection />
-      </section> */}
+      </section>
 
-      <section id="pacotes" className="min-h-screen p-[7rem]">
+      <section id="pacotes" className="min-h-screen pt-[7rem] px-3">
         <Pacotes />
       </section>
 
@@ -24,15 +25,15 @@ export default function Home() {
         <Servicos/>
       </section> */}
 
-      <section id="quem-somos" className="min-h-screen  p-[7rem]">
+      <section id="quem-somos" className="min-h-screen pt-[7rem] px-3">
         <Quemsomos />
       </section>
 
-      <section id="depoimentos" className="min-h-screen  p-[7rem]">
+      <section id="depoimentos" className="px-3">
         <Depoimentos />
       </section>
 
-      <section id="contatos" className="min-h-screen  p-[7rem]">
+      <section id="contatos" className="min-h-screen pt-[7rem]">
         <Contatos />
       </section>
 

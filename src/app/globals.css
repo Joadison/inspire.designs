@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
 @font-face {
   font-family: "ArsenicaTrial";
@@ -11,7 +11,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 ::-webkit-scrollbar {
-  width: 0px; 
+  width: 0px;
   height: 0px;
 }

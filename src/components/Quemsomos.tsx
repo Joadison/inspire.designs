@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Quemsomos() {
   return (
-    <div className="max-w-screen-xl mx-auto p-8">
+    <div className="relative w-full flex flex-col justify-center items-center min-h-screen">
       <h1 className="text-7xl font-greatVibes text-center text-gray-900 mb-16">
         Quem Somos
       </h1>
@@ -14,8 +14,8 @@ function Quemsomos() {
         <span className="text-sm text-gray-500">Salmos 133:1</span>
       </div>*/}
 
-      <div className="flex flex-col md:flex-row justify-center mb-12 gap-14">
-        <div className="w-[30rem] -rotate-2 overflow-hidden rounded-md border-2 shadow-lg transition-transform duration-300 hover:rotate-0 hover:scale-110 mb-8 sm:mb-0">
+      <div className="flex flex-col lg:flex-row justify-center mb-12 gap-14">
+        <div className="md:w-[30rem] -rotate-2 overflow-hidden rounded-md border-2 shadow-lg transition-transform duration-300 hover:rotate-0 hover:scale-110 mb-8 sm:mb-0">
           <Image
             src={"/joadison.png"}
             alt="Joadison"
@@ -26,7 +26,7 @@ function Quemsomos() {
           />
         </div>
 
-        <div className="w-[30rem] rotate-3 overflow-hidden rounded-md border-2 shadow-lg transition-transform duration-300 hover:rotate-0 hover:scale-110">
+        <div className="md:w-[30rem] rotate-3 overflow-hidden rounded-md border-2 shadow-lg transition-transform duration-300 hover:rotate-0 hover:scale-110">
           <Image
             src={"/victoria.png"}
             alt="Victoria"

@@ -3,7 +3,7 @@ import { Instagram } from 'lucide-react';
 
 function Footer() {
   return (
-    <div className="bg-[#f3f6fa] p-8 mt-16">
+    <footer className="relative bottom-0 left-0 z-20 w-full bg-[#f3f6fa] p-8 mt-16 ">
       <div className="max-w-screen-xl mx-auto flex justify-between items-center">
         <p className="text-lg text-gray-700">
           Feito com ❤️ por <strong>Inspire Designs</strong>
@@ -21,7 +21,7 @@ function Footer() {
       <div className="text-center text-sm text-gray-500 mt-4">
         <p>&copy; {new Date().getFullYear()} Inspire Designs. Todos os direitos reservados.</p>
       </div>
-    </div>
+    </footer>
   )
 }
 

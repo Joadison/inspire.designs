@@ -17,12 +17,12 @@ function Header() {
     const target = document.querySelector(targetId);
     if (target) {
       target.scrollIntoView({ behavior: "smooth", block: "start" });
-      setIsMenuOpen(false); // Fecha o menu no mobile após clique
+      setIsMenuOpen(false);
     }
   };
 
   useEffect(() => {
-    setIsMenuOpen(false); 
+    setIsMenuOpen(false);
   }, []);
 
   const menuItems = [
@@ -48,7 +48,6 @@ function Header() {
             />
           </div>
 
-          {/* Botão do menu mobile */}
           <button
             onClick={toggleMenu}
             className="md:hidden p-2 font-arsenica rounded-md hover:bg-gray-200 transition-colors"
@@ -56,7 +55,6 @@ function Header() {
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
 
-          {/* Menu desktop */}
           <nav className="hidden md:flex gap-x-6">
             {menuItems.map((item) => (
               <a
@@ -71,9 +69,8 @@ function Header() {
           </nav>
         </div>
 
-        {/* Menu Mobile */}
         {isMenuOpen && (
-          <nav className="md:hidden mt-4 bg-[#f3f6fa] rounded-md shadow-md p-4">
+          <nav className="md:hidden mt-4 bg-white rounded-md shadow-md p-4">
             {menuItems.map((item) => (
               <a
                 key={item.href}
@@ -87,8 +84,6 @@ function Header() {
           </nav>
         )}
       </header>
-
-      <div className="pt-24"></div>
     </>
   );
 }

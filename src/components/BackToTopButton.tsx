@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import { ArrowUp } from 'lucide-react';
-import React, { useState, useEffect } from 'react';
+import { ArrowUp } from "lucide-react";
+import React, { useState, useEffect } from "react";
 
 function BackToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
@@ -15,17 +15,17 @@ function BackToTopButton() {
       }
     };
 
-    window.addEventListener('scroll', toggleVisibility);
+    window.addEventListener("scroll", toggleVisibility);
 
     return () => {
-      window.removeEventListener('scroll', toggleVisibility);
+      window.removeEventListener("scroll", toggleVisibility);
     };
   }, []);
 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   };
 
@@ -33,9 +33,9 @@ function BackToTopButton() {
     isVisible && (
       <button
         onClick={scrollToTop}
-        className="fixed bottom-4 right-4 bg-blue-600 text-white px-2 py-2 rounded-full shadow-lg hover:bg-blue-700 transition"
+        className="fixed bottom-[10rem] right-4 bg-blue-600 text-white px-2 py-2 rounded-full shadow-lg hover:bg-blue-700 transition"
       >
-        <ArrowUp/>
+        <ArrowUp />
       </button>
     )
   );
