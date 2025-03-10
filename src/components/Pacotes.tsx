@@ -18,7 +18,7 @@ function Pacotes() {
       title: "Básico",
       description:
         "Pacote ideal para quem está começando e busca soluções práticas e eficientes.",
-      price: "R$ 149,90",
+      price: "À consultar",
       features: ["Essencial", "Inicial", "Básico Web"],
       bgColor: "bg-gray-100",
       hoverColor: "hover:bg-gray-200",
@@ -28,7 +28,7 @@ function Pacotes() {
       title: "Intermediário",
       description:
         "Para quem deseja mais funcionalidades e maior personalização.",
-      price: "R$ 399,90",
+      price: "À consultar",
       features: ["Avançado", "Pro", "Completo"],
       bgColor: "bg-blue-100",
       hoverColor: "hover:bg-blue-200",
@@ -38,7 +38,7 @@ function Pacotes() {
       title: "Premium",
       description:
         "Pacote completo com todos os recursos e atendimento exclusivo.",
-      price: "R$ 899,90",
+      price: "À consultar",
       features: ["Premium", "Elite", "Supremo"],
       bgColor: "bg-green-100",
       hoverColor: "hover:bg-green-200",
@@ -48,7 +48,7 @@ function Pacotes() {
       title: "Personalizado",
       description:
         "Criamos um pacote sob medida para atender suas necessidades específicas.",
-      price: "Sob Consulta",
+      price: "À consultar",
       features: [
         "Serviços Sob Medida",
         "Consultoria Personalizada",
